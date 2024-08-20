@@ -6,6 +6,6 @@ DATABASE_URL = "postgresql://durbijSQL:durbijroot@localhost:5432/mydatabase"
 
 engine = create_engine(DATABASE_URL)
 metadata = MetaData()
-
+ 
 def get_db_engine():
     return engine
