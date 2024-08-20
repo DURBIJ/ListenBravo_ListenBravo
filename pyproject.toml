@@ -1,0 +1,20 @@
+# pyproject.toml - Poetry configuration file
+
+[tool.poetry]
+name = "my_fastapi_project"
+version = "0.1.0"
+description = "A FastAPI project for ListenBravo backend screening"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.78.0"
+pandas = "^1.4.2"
+openai = "^0.27.0"
+sqlalchemy = "^1.4.37"
+uvicorn = "^0.17.6"
+python-dotenv = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

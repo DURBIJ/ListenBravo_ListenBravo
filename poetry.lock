@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore environment variables
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Poetry files
+poetry.lock
